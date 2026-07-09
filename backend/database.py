@@ -2,13 +2,12 @@ import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-# Railway / Local Database URL
-DATABASE_URL = os.getenv("DATABASE_URL")
-
-engine = create_engine(
-    DATABASE_URL,
-    echo=False
+DATABASE_URL = os.getenv(
+    "DATABASE_URL",
+    "mysql+pymysql://root:1427@localhost/delay_analysis"
 )
+
+engine = create_engine(DATABASE_URL, echo=False)
 
 SessionLocal = sessionmaker(
     autocommit=False,

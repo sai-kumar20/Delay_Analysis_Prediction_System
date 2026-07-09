@@ -64,7 +64,7 @@ function PredictionSummaryCards({ equipmentData, monsoonData }) {
         <div
             style={{
                 display: "grid",
-                gridTemplateColumns: "repeat(5,1fr)",
+                gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
                 gap: "18px",
                 marginTop: "30px",
                 marginBottom: "35px"
@@ -116,7 +116,7 @@ function PredictionSummaryCards({ equipmentData, monsoonData }) {
                         <h3
                             style={{
                                 marginBottom: "20px",
-                                fontSize: "24px"
+                                fontSize: "20px"
                             }}
                         >
                             {card.title}
@@ -124,7 +124,7 @@ function PredictionSummaryCards({ equipmentData, monsoonData }) {
 
                         <h1
                             style={{
-                                fontSize: "28px",
+                                fontSize: "24px",
                                 margin: 0,
                                 fontWeight: "bold"
                             }}
