@@ -1,0 +1,58 @@
+/* ===========================
+   GLOBAL RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body,
+#root{
+
+    width:100%;
+    min-height:100vh;
+
+    font-family:
+        "Segoe UI",
+        sans-serif;
+
+    background:#f4f6f9;
+
+}
+
+/* ===========================
+   ROOT
+=========================== */
+
+#root{
+
+    width:100%;
+
+}
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#06233d;
+
+    border-radius:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#ececec;
+
+}

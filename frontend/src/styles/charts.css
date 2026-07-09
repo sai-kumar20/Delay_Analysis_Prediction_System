@@ -1,0 +1,31 @@
+/* ====================================
+   CHART LAYOUT
+==================================== */
+
+.charts-grid{
+
+    display:grid;
+
+    grid-template-columns:6fr 4fr;
+
+    gap:25px;
+
+    margin:35px 0;
+
+    align-items:stretch;
+
+}
+
+/* ====================================
+   RESPONSIVE
+==================================== */
+
+@media(max-width:1100px){
+
+.charts-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}

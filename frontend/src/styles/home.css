@@ -1,0 +1,88 @@
+/* =========================
+   HOME PAGE
+========================= */
+
+.home-container{
+    width:100%;
+    min-height:100vh;
+    background:#f4f6f9;
+}
+
+.header{
+
+    width:100%;
+    background:#06233d;
+
+    padding:15px 40px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+
+}
+
+.logo-section{
+
+    text-align:center;
+    color:white;
+
+}
+
+.logo-section h2{
+
+    margin:0;
+    font-size:34px;
+    font-weight:700;
+
+}
+
+.logo-section p{
+
+    margin-top:6px;
+    font-size:18px;
+    color:#dce8f7;
+
+}
+
+.main-content{
+
+    width:95%;
+    margin:25px auto;
+
+}
+
+.card{
+
+    width:100%;
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.12);
+
+}
+.company-logo{
+
+    width:70px;
+
+    height:70px;
+
+    object-fit:contain;
+
+    margin-right:18px;
+
+}
+
+.header{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:flex-start;
+
+}

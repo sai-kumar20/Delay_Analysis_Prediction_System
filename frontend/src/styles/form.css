@@ -1,0 +1,85 @@
+/* =====================================
+   ANALYSIS CONTROL PANEL
+===================================== */
+
+.control-panel{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    margin:25px 0 35px 0;
+
+}
+
+.control-panel label{
+
+    font-weight:600;
+
+    color:#437099;
+
+}
+
+.control-panel select,
+.control-panel input{
+
+    padding:10px 14px;
+
+    border:1px solid #cfd8dc;
+
+    border-radius:8px;
+
+    font-size:15px;
+
+    min-width:180px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.control-panel select:focus,
+.control-panel input:focus{
+
+    border-color:#437099;
+
+    box-shadow:0 0 6px rgba(43,88,133,.3);
+
+}
+
+.analyze-btn{
+
+    background:#06233d;
+
+    color:white;
+
+    border:none;
+
+    padding:11px 24px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.analyze-btn:hover{
+
+    background:#437099;
+
+    transform:translateY(-2px);
+
+}
