@@ -1,8 +1,8 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-# MySQL connection URL
-DATABASE_URL = "mysql+pymysql://root:1427@localhost/delay_analysis"
+# Railway MySQL Connection
+DATABASE_URL = "mysql+pymysql://root:CLcvtOfXqTPXPrQjegAYdXRVddOuTrCE@hayabusa.proxy.rlwy.net:13152/railway"
 
 # Engine
 engine = create_engine(
