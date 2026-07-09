@@ -10,9 +10,12 @@ venv/
 # Environment variables
 .env
 
-# ML models
-*.pkl
-*.joblib
+# ML Models
+#backend/ml/models/*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
 
 # Large datasets
 *.csv
@@ -23,3 +26,4 @@ venv/
 # OS files
 .DS_Store
 Thumbs.db
+
